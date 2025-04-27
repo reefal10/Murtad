@@ -39,26 +39,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-import streamlit as st
-
-session_state
-if "page" not in st.session_state:
-    st.session_state.page = "home"
-
-
-if st.session_state.page == "home":
-    st.title(" Welcome ")
-    st.image("deploy/imges.png", width=500)  # اذا عندك صورة حطيها هنا
-    if st.button("Start"):
-        st.session_state.page = "second"
-
-
-elif st.session_state.page == "second":
-    st.title("predict Page")
-    st.write("predict")
-    if st.button("Back"):
-        st.session_state.page = "home"
-
 
 
 
