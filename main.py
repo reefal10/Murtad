@@ -18,7 +18,7 @@ def main():
     with c1:
         st.write("")  
     with c2:
-        st.image('deploy/imges.png', width=500)
+        st.image(r'deploy\imges.png', width=500)
     with c3:
         st.write("")
 
