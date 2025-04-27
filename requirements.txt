@@ -1,5 +1,5 @@
-pip install streamlit
-pip install pandas
+pip install streamlit as st
+pip install pandas as pd
 pip install numpy
 pip install matplotlib
 pip install joblib 
